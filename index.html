@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Purple Todo List</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f015a85c3b.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+       
+        <header class="text-center text-light my-4">
+            <h1 class="heading">Todo List</h1>
+        </header>
+
+        <!-- To Do List -->
+        <ul class="list-group todos js-todo-list"></ul>
+
+
+        <!-- Add a new Todo Item -->
+        <form  class="js-todo-add-form form" >
+            <label for="add"></label>
+            <input type="text" class="js-todo-entry " id="add" placeholder="add item">
+            <button type="submit" class="add-btn">Add</button>
+        </form>
+    </div>
+    
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
